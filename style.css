@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    width: 30%;
+    height: 100vh;
+    background-color: #9BA4B5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+aside h1 {
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+aside img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    border: 3px solid #191970;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+aside a {
+    font-size: 50px;
+    height: 50px;
+    color: #191970;
+    margin: 20px;
+}
+
+aside a:hover {
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+.navbar {
+    background-color: #4682B4;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 50px;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    margin: 80px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    color: #191970;
+    border-radius: 20px;
+
+}
+
+.navbar a:hover {
+    color: whitesmoke;
+    background-color: #191970;
+    transition: 0.4s;
+}
+
+.info {
+    height: 85vh;
+    background-color: #EEF5FF;
+}
+
+.info h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: #483D8B;
+}
+
+.info p {
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+.info ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: disc;
+}
+
+.info ul li {
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'DM Sans', sans-serif;
+    list-style-type: square;
+}
+
+
+.contact_main {
+    background-color: #EEF5FF;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.contact_main h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    font-family: 'DM Sans', sans-serif;
+    color: #483D8B;
+    letter-spacing: 1px;
+}
+
+input{
+    border-radius: 10px;
+    border: 1.5px solid #191970;
+}
+
+input:hover{
+    color: #333;
+    background-color: #F0F8FF;
+    transition: 0.4s;
+}
+
+textarea{
+    border-radius: 10px;
+    resize: none;
+}
+
+textarea:hover{
+    color: #333;
+    background-color: #F0F8FF;
+    transition: 0.4s;
+}
+
+td {
+    padding: 5px;
+    font-size: x-large;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+}
+
+tr {
+    font-size: x-large;
+}
+
+#submit:hover{
+    background-color: green;
+    transition: 0.4s;
+    color: whitesmoke;
+}
+
+#reset:hover{
+    background-color: red;
+    transition: 0.4s;
+    color: whitesmoke;
+}
